@@ -1,0 +1,156 @@
+---------------------------------------------------------------------
+Date: 11-29-2017
+Data Set: 600
+X Tranining Set: 420 ; X Test Set: 180
+Y Tranining Set: 420 ; Y Test Set: 180
+
+Sigmodial Accuracy: 0.7167
+Layers: 3 ; Iterations: 7 ; Outputs: 1
+Confusioin Matrix: [  0  51   0 129]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.00      0.00      0.00        51
+       Male       0.72      1.00      0.83       129
+
+avg / total       0.51      0.72      0.60       180
+
+Hyperbolic Tangent Accuracy: 0.7333
+Layers: 3 ; Iterations: 63 ; Outputs: 1
+Confusioin Matrix: [ 26  25  23 106]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.53      0.51      0.52        51
+       Male       0.81      0.82      0.82       129
+
+avg / total       0.73      0.73      0.73       180
+
+Rectified Linear Unit Accuracy: 0.7556
+Layers: 3 ; Iterations: 155 ; Outputs: 1
+Confusioin Matrix: [ 30  21  23 106]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.57      0.59      0.58        51
+       Male       0.83      0.82      0.83       129
+
+avg / total       0.76      0.76      0.76       180
+
+---------------------------------------------------------------------
+Date: 11-30-2017
+Data Set: 1800
+X Tranining Set: 1260 ; X Test Set: 540
+Y Tranining Set: 1260 ; Y Test Set: 540
+
+Sigmodial Accuracy: 0.7130
+Layers: 3 ; Iterations: 66 ; Outputs: 1
+Confusioin Matrix: [ 51 129  26 334]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.66      0.28      0.40       180
+       Male       0.72      0.93      0.81       360
+
+avg / total       0.70      0.71      0.67       540
+
+Hyperbolic Tangent Accuracy: 0.7167
+Layers: 3 ; Iterations: 24 ; Outputs: 1
+Confusioin Matrix: [ 50 130  23 337]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.68      0.28      0.40       180
+       Male       0.72      0.94      0.81       360
+
+avg / total       0.71      0.72      0.68       540
+
+Rectified Linear Unit Accuracy: 0.7426
+Layers: 3 ; Iterations: 200 ; Outputs: 1
+Confusioin Matrix: [ 89  91  48 312]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.65      0.49      0.56       180
+       Male       0.77      0.87      0.82       360
+
+avg / total       0.73      0.74      0.73       540
+
+---------------------------------------------------------------------
+Date: 11-30-2017
+Data Set: 4500
+X Tranining Set: 3150 ; X Test Set: 1350
+Y Tranining Set: 3150 ; Y Test Set: 1350
+
+Sigmodial Accuracy: 0.7119
+Layers: 3 ; Iterations: 45 ; Outputs: 1
+Confusioin Matrix: [149 299  90 812]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.62      0.33      0.43       448
+       Male       0.73      0.90      0.81       902
+
+avg / total       0.70      0.71      0.68      1350
+
+Hyperbolic Tangent Accuracy: 0.7126
+Layers: 3 ; Iterations: 32 ; Outputs: 1
+Confusioin Matrix: [134 314  74 828]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.64      0.30      0.41       448
+       Male       0.73      0.92      0.81       902
+
+avg / total       0.70      0.71      0.68      1350
+
+Rectified Linear Unit Accuracy: 0.7548
+Layers: 3 ; Iterations: 166 ; Outputs: 1
+Confusioin Matrix: [206 242  89 813]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.70      0.46      0.55       448
+       Male       0.77      0.90      0.83       902
+
+avg / total       0.75      0.75      0.74      1350
+
+---------------------------------------------------------------------
+Date: 11-30-2017
+Data Set: 12202
+X Tranining Set: 8541 ; X Test Set: 3661
+Y Tranining Set: 8541 ; Y Test Set: 3661
+
+Sigmodial Accuracy: 0.6995
+Layers: 3 ; Iterations: 169 ; Outputs: 1
+Confusioin Matrix: [1268  631  469 1293]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.73      0.67      0.70      1899
+       Male       0.67      0.73      0.70      1762
+
+avg / total       0.70      0.70      0.70      3661
+
+Hyperbolic Tangent Accuracy: 0.7116
+Layers: 3 ; Iterations: 76 ; Outputs: 1
+Confusioin Matrix: [1296  603  453 1309]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.74      0.68      0.71      1899
+       Male       0.68      0.74      0.71      1762
+
+avg / total       0.71      0.71      0.71      3661
+
+Rectified Linear Unit Accuracy: 0.7320
+Layers: 3 ; Iterations: 99 ; Outputs: 1
+Confusioin Matrix: [1403  496  485 1277]
+Classification Report:
+             precision    recall  f1-score   support
+
+     Female       0.74      0.74      0.74      1899
+       Male       0.72      0.72      0.72      1762
+
+avg / total       0.73      0.73      0.73      3661
+
